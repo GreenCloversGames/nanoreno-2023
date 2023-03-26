@@ -420,37 +420,45 @@ dd "after they connect the Clover to the Station they power up the Station."
 
 dd "DRAFT INCOMING."
 
-m "So we’re just going to… Slice this open then?"
-s "That’s the plan! Just let me finish getting it working…"
-m "It just seems that, y’know, breaking into-"
-g "Woah, woah, who said anything about breaking into? We’re just cutting into, get me?"
-g "Hey Rookie, who are those guys your people have with the small knives who save lives?"
-r "...Surgeons?"
-g "Yeah, that’s the one! Would you say they ‘break into’ people bodies to fix them?"
-r "No, because that would be a really weird thing to-"
-g "Exactly, Marnie, it would be weird to say."
-m "Point is, a place all sealed up like this, with no clear cause why it’s empty…"
-m "Just seems like a bad idea, is all."
-o "Marnie, usually I’d agree with you, but the potential…"
+#m "So we’re just going to… Slice this open then?"
+#s "That’s the plan! Just let me finish getting it working…"
+#m "It just seems that, y’know, breaking into-"
+#g "Woah, woah, who said anything about breaking into? We’re just cutting into, get me?"
+#g "Hey Rookie, who are those guys your people have with the small knives who save lives?"
+#r "...Surgeons?"
+#g "Yeah, that’s the one! Would you say they ‘break into’ people bodies to fix them?"
+#r "No, because that would be a really weird thing to-"
+#g "Exactly, Marnie, it would be weird to say."
+#m "Point is, a place all sealed up like this, with no clear cause why it’s empty…"
+#m "Just seems like a bad idea, is all."
+#o "Marnie, usually I’d agree with you, but the potential…"
 
-m "Fine, but if this all goes horribly wrong and we all die, I get bragging rights."
-g "Aw cool your jets, Marnie! What could possibly go wrong?"
-s "I’ve managed to slice through the door! It was simply no match for my brain power!"
-o "Okay! Everyone head in!"
+#m "Fine, but if this all goes horribly wrong and we all die, I get bragging rights."
+#g "Aw cool your jets, Marnie! What could possibly go wrong?"
+#s "I’ve managed to slice through the door! It was simply no match for my brain power!"
+#o "Okay! Everyone head in!"
 
 # strange notification sound
 
-o "What was that sound?"
-s "!"
-o "__Tech? What is it?"
+#o "What was that sound?"
+#s "!"
+#o "__Tech? What is it?"
 
-s "I just got a bill?"
-qq "Excuse me."
-g "what is we just blow it up?"
+#s "I just got a bill?"
+#qq "Excuse me."
+#g "what is we just blow it up?"
 
-s "What? Who said that?"
+#s "What? Who said that?"
 
-m "I knew this was going to go badly..."
+#m "I knew this was going to go badly..."
+
+s "Hey! Good job, Rookie! You didn't electrocute yourself!"
+r "Was that a possibility?"
+m "It's always a possibility with Sprocko. That or explosions."
+o "Anyway, we got the power working! Good job crew, now we can begin to-"
+#Notification Sound
+s "I just got a ping from the Clover… Did someone just bill me?"
+
 
 show ai normal with dissolve:
     zoomnorm
